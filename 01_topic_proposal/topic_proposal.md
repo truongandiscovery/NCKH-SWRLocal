@@ -2,10 +2,15 @@
 
 ## 1. Group Information
 
-- Class:
-- Group:
-- Leader:
+- Class: SE2037
+- Group: Group 05
+- Leader: Nguyen Cong Truong An - SE201020
 - Members:
+  - Nguyen Cong Truong An - SE201020
+  - Nguyen Thach Ngon - SE201022
+  - Tran Ho Phuc Duc - SE201538
+  - Dang Tuan Kiet - SE201559
+  - Pham Van Duc Duy - SE194521
 
 ## 2. Proposed Title
 
