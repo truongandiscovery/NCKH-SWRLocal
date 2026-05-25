@@ -4,7 +4,6 @@
 > **Nhóm:** Group 05 | **Lớp:** SE2037  
 
 ### 1. Bài báo liên quan trực tiếp (Core Papers - Tối thiểu 5)
-*Các bài báo giải quyết cùng bài toán hoặc có hệ thống đề xuất tương tự.*
 
 | STT | Tên bài báo (Title) | Tác giả & Năm | Nguồn đăng (Venue) | Link/DOI |
 |:---:|---|---|---|:---:|
@@ -15,7 +14,6 @@
 | 5 | Research on inventory forecasting and management strategies in logistics and warehousing automation based on artificial intelligence models | Zhicheng Ma (2024) | Journal of Combinatorial Mathematics and Combinatorial Computing | [Link](https://combinatorialpress.com/jcmcc-articles/volume-124/research-on-inventory-forecasting-and-management-strategies-in-logistics-and-warehousing-automation-based-on-artificial-intelligence-models/) |
 
 ### 2. Bài báo về Model/Phương pháp AI (Methodology/Model Papers - Tối thiểu 3)
-*Các bài báo tập trung vào cấu trúc mô hình, kỹ thuật tối ưu, hoặc thuật toán AI sẽ sử dụng (ví dụ: RAG, LLM, CNN, LSTM, ...).*
 
 | STT | Tên bài báo (Title) | Tác giả & Năm | Nguồn đăng (Venue) | Link/DOI |
 |:---:|---|---|---|:---:|
@@ -24,7 +22,6 @@
 | 3 | Digital Infrastructure for Predictive Inventory Management in Retail Using Machine Learning | Raviteja Meda (2021) | International Journal of Advanced Research in Computer and Communication Engineering (IJARCCE) | [Link](https://doi.org/10.17148/IJARCCE.2021.101276) |
 
 ### 3. Bài báo về Domain ứng dụng (Domain Papers - Tối thiểu 2)
-*Các bài báo phân tích nghiệp vụ, quy trình, hoặc các bài toán cụ thể trong domain ứng dụng.*
 
 | STT | Tên bài báo (Title) | Tác giả & Năm | Nguồn đăng (Venue) | Link/DOI |
 |:---:|---|---|---|:---:|
