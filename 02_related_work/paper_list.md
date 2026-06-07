@@ -1,29 +1,26 @@
-# Danh sách Bài báo Nghiên cứu (Paper List)
+# Related Paper List
 
-> **Đề tài:** Smart Warehouse Management System Using Machine Learning for Demand Forecasting and Inventory Recommendation  
-> **Nhóm:** Group 05 | **Lớp:** SE2037  
+Tài liệu này tổng hợp danh sách các bài báo nghiên cứu khoa học được lựa chọn để tiến hành Literature Review cho đề tài: **"Requirements Engineering for a Smart Warehouse Management System"**.
 
-### 1. Bài báo liên quan trực tiếp (Core Papers - Tối thiểu 5)
+Danh sách bao gồm 5 bài báo liên quan trực tiếp (Core Papers - Nhóm 1) và 2 bài báo bối cảnh thực tế (Domain / Context Papers - Nhóm 2) được cung cấp bởi nhóm nghiên cứu.
 
-| STT | Tên bài báo (Title) | Tác giả & Năm | Nguồn đăng (Venue) | Link/DOI |
-|:---:|---|---|---|:---:|
-| 1 | Optimizing warehouse management system with blockchain and machine learning predictive data analytics | Kapil N. Hande, Manoj B. Chandak (2024) | International Journal of Informatics and Communication Technology (IJ-ICT) | [Link](https://iaesjournal.org/index.php/ijict/article/view/2912) |
-| 2 | Predictive models for inventory optimization: a machine learning application for demand forecasting at a construction supplies distributor | Diocélio Dornela Goulart et al. (2026) | Future Business Journal | [Link](https://link.springer.com/article/10.1186/s43093-026-00807-8) |
-| 3 | A comprehensive study on intelligent inventory management and product demand forecasting using machine learning techniques | Shubha Rao V (2026) | International Journal of Applied Mathematics | [Link](https://ijamjournal.org/ijam/publication/index.php/ijam/article/view/1613) |
-| 4 | Forecasting and Inventory Planning: An Empirical Investigation of Classical and Machine Learning Approaches for Svanehøj's Future Software Consolidation | Hadid J. Wahedi et al. (2023) | Applied Sciences (MDPI) | [Link](https://www.mdpi.com/2076-3417/13/15/8581) |
-| 5 | Research on inventory forecasting and management strategies in logistics and warehousing automation based on artificial intelligence models | Zhicheng Ma (2024) | Journal of Combinatorial Mathematics and Combinatorial Computing | [Link](https://combinatorialpress.com/jcmcc-articles/volume-124/research-on-inventory-forecasting-and-management-strategies-in-logistics-and-warehousing-automation-based-on-artificial-intelligence-models/) |
+---
 
-### 2. Bài báo về Model/Phương pháp AI (Methodology/Model Papers - Tối thiểu 3)
+## 1. Danh sách bài báo liên quan trực tiếp (Core Papers - Nhóm 1)
 
-| STT | Tên bài báo (Title) | Tác giả & Năm | Nguồn đăng (Venue) | Link/DOI |
-|:---:|---|---|---|:---:|
-| 1 | AI-Powered Forecasting for Supply Chain Resilience: Applications of Logistic Regression, Random Forest, and XGBoost in the U.S. Context | Abdullah Sheikh et al. (2025) | American Journal of Innovation in Science and Engineering (AJISE) | [Link](https://www.researchgate.net/profile/Abdullah-Sheikh-14/publication/399154859_AI-Powered_Forecasting_for_Supply_Chain_Resilience_Applications_of_Logistic_Regression_Random_Forest_and_XGBoost_in_the_US_Context/links/69584de17e61d05b53161e63/AI-Powered-Forecasting-for-Supply-Chain-Resilience-Applications-of-Logistic-Regression-Random-Forest-and-XGBoost-in-the-US-Context.pdf) |
-| 2 | Applying Machine Learning and Statistical Forecasting Methods for Enhancing Pharmaceutical Sales Predictions | Konstantinos P. Fourkiotis, Aristotelis Tsadiras (2024) | Forecasting (MDPI) | [Link](https://www.mdpi.com/2571-9394/6/1/10) |
-| 3 | Digital Infrastructure for Predictive Inventory Management in Retail Using Machine Learning | Raviteja Meda (2021) | International Journal of Advanced Research in Computer and Communication Engineering (IJARCCE) | [Link](https://doi.org/10.17148/IJARCCE.2021.101276) |
+| No | Paper Title | Authors | Year | Venue / Publisher | Link / DOI | Relevance to RQs |
+|---|---|---|---|---|---|---|
+| **01** | Assessing Logistical Requirements for Inventory Management Systems: An Evaluation of Elicitation Methods | Oscar Gille, Ludvig Nordahl | 2024 | University of Gothenburg | [GUPEA Link](https://gupea.ub.gu.se/server/api/core/bitstreams/04c0cce7-ccd7-46a3-8cf8-744569cbdf8a/content) | **RQ1 (Elicitation Methods)**: Nghiên cứu sâu về các phương pháp thu thập yêu cầu hệ thống quản lý tồn kho và chuỗi cung ứng, giúp nhóm hiểu cách phỏng vấn/thu thập yêu cầu từ quản lý kho và nhân viên. |
+| **02** | Requirements engineering for inventory management of locomotive's electronic modules maintenance | M. S. Mphaphuli, J. H. C. Pretorius | 2020 | IEEE IEEM / University of Johannesburg | [UJContent Link](https://ujcontent.uj.ac.za/esploro/outputs/journalArticle/Requirements-engineering-for-inventory-management-of/9912310607691#file-0) | **RQ1 (Stakeholder Elicitation)**: Hướng dẫn quy trình kỹ thuật yêu cầu thực tế đối với hệ thống quản lý tồn kho kỹ thuật, tập trung vào đối tượng vận hành và quản lý. |
+| **03** | A Framework for Modelling Software Requirements | Dhirendra Pandey, Ugrasen Suman, A. K. Ramani | 2011 | International Journal of Computer Science Issues (IJCSI) | [ResearchGate Link](https://www.researchgate.net/profile/Ugrasen-Suman/publication/266000842_A_Framework_for_Modelling_Software_Requirements/links/55094f260cf2d7a2812c6e71/A-Framework-for-Modelling-Software-Requirements.pdf) | **RQ2 & RQ3 (Modeling & Prototyping)**: Đề xuất khung đặc tả yêu cầu bằng mô hình trực quan bao gồm Use Case và giao diện bản mẫu (UI prototype) trực quan lấy hệ thống quản lý kho (Inventory System) làm Case Study minh họa. |
+| **04** | Demand Driven Material Requirements Planning: An Inventory Optimization Model | Dr. Muragesh Math, Dr. Gopinath Duggi, B. S. Biradar | 2024 | International Journal of Agricultural and Statistical Sciences | [ResearchGate Link](https://www.researchgate.net/profile/Dr-Math/publication/381343552_Demand_Driven_Material_Requirements_Planning_An_Inventory_Optimization_Model/links/66aba592299c327096a2fccb/Demand-Driven-Material-Requirements-Planning-An-Inventory-Optimization-Model.pdf) | **RQ2 (Restocking Decisions)**: Mô hình hóa các yêu cầu tối ưu hóa tồn kho theo nhu cầu thực tế (DDMRP) để đưa ra các thuật toán cảnh báo vùng an toàn và khuyến nghị nhập hàng. |
+| **05** | Developing Requirements for Data Warehouse Systems with Use Cases | Robert M. Bruckner, Beate List, Josef Schiefer | 2001 | AMCIS 2001 Proceedings | [AISel Link](https://aisel.aisnet.org/cgi/viewcontent.cgi?article=1505&context=amcis2001) | **RQ2 (Functional Specifications)**: Hướng dẫn cách sử dụng Use Case để đặc tả các yêu cầu chức năng, yêu cầu thông tin và thuộc tính chất lượng của hệ thống ra quyết định và lưu trữ. |
 
-### 3. Bài báo về Domain ứng dụng (Domain Papers - Tối thiểu 2)
+---
 
-| STT | Tên bài báo (Title) | Tác giả & Năm | Nguồn đăng (Venue) | Link/DOI |
-|:---:|---|---|---|:---:|
-| 1 | Comprehensive Review of Improvement in Inventory Management Methods through Digitalization: Traditional Practices and Emerging Trends | Sara Rezaeinavaei, Sharfuddin Khan (2025) | 2nd IEOM World Congress on Industrial Engineering and Operations Management | [Link](https://www.researchgate.net/profile/Sara-Rezaeinavaei/publication/400274155_Comprehensive_Review_of_Improvement_in_Inventory_Management_Methods_through_Digitalization_Traditional_Practices_and_Emerging_Trends/links/69a778a184431b5258b73eeb/Comprehensive-Review-of-Improvement-in-Inventory-Management-Methods-through-Digitalization-Traditional-Practices-and-Emerging-Trends.pdf) |
-| 2 | Challenges and Strategies for Inventory Management in Small and Medium-Sized Cosmetic Enterprises: A Review | Arthit Kittisak (2023) | International Journal of Information Technology and Computer Science Applications (IJITCSA) | [Link](https://pdfs.semanticscholar.org/b10d/578937712f5f159907573bf37c4085dca2ae.pdf) |
+## 2. Danh sách bài báo bối cảnh thực tế (Domain / Context Papers - Nhóm 2)
+
+| No | Paper Title | Authors | Year | Venue / Publisher | Link / DOI | Relevance to RQs |
+|---|---|---|---|---|---|---|
+| **06** | Enhancing Inventory Management through Real-Time Power BI Dashboards and KPI Tracking | Srikanth Yerra | 2025 | IJSRCSEIT | [ResearchGate Link](https://www.researchgate.net/profile/Srikanth-Yerra-2/publication/389822887_Enhancing_Inventory_Management_through_Real-Time_Power_BI_Dashboards_and_KPI_Tracking/links/67d3b9107d56ad0a0f0210d5/Enhancing-Inventory-Management-through-Real-Time-Power-BI-Dashboards-and-KPI-Tracking.pdf) | **RQ3 (Visualization vs Spreadsheets)**: Khảo sát cách triển khai Dashboard thời gian thực và theo dõi KPI (tồn kho, độ chính xác dự báo) giúp nâng cao hiệu quả quản trị so với bảng tính tĩnh truyền thống. |
+| **07** | Selection Criteria of Warehouse Management Systems (WMS) For Small and Medium Enterprises (SMEs) | Salem Al-Latfei | 2026 | Metropolia University of Applied Sciences | [Theseus Link](https://www.theseus.fi/bitstream/handle/10024/912037/Al-Latfei_Salem.pdf?sequence=2&isAllowed=y) | **RQ3 & RQ1 (WMS Selection & Transition)**: Xây dựng các tiêu chí lựa chọn phần mềm WMS cho doanh nghiệp vừa và nhỏ (SMEs), làm rõ các rào cản nghiệp vụ và kỹ thuật khi thay thế hệ thống kho cũ/bảng tính. |
