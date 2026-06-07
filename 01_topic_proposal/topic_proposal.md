@@ -16,96 +16,47 @@
 
 **English title:**
 
-Smart Warehouse Management System Using Machine Learning for Demand Forecasting and Inventory Recommendation
+Requirements Engineering for a Smart Warehouse Management System
 
 **Vietnamese title:**
 
-Hệ thống quản lý kho thông minh sử dụng Machine Learning để dự báo nhu cầu và gợi ý nhập hàng
+Kỹ thuật Yêu cầu cho Hệ thống Quản lý Kho Thông minh
 
-## 3. Application Domain
+## 3. Research Domain
 
-The application domain of this topic is **warehouse management and inventory management**.
-
-This topic focuses on applying Machine Learning to support warehouse managers in monitoring inventory, forecasting product demand, and making better restocking decisions.
+Software Requirements Engineering / Business Analysis
 
 ## 4. Problem Statement
 
-In traditional warehouse management, inventory decisions are often made manually based on experience or simple sales reports. This may cause several problems such as stock shortage, overstocking, inaccurate demand estimation, and inefficient restocking decisions.
-
-When customer demand changes over time, managers may find it difficult to decide which products should be imported, how many items should be restocked, and when restocking should be done. As a result, businesses may lose sales opportunities due to stockouts or waste storage costs due to excessive inventory.
-
-Therefore, a smart warehouse management system is needed to support demand forecasting and inventory recommendation using historical sales and stock data.
+In traditional warehouse management, many small and medium-sized enterprises (SMEs) rely on spreadsheet-based inventory tracking (e.g., Excel, Google Sheets). While simple, this manual approach is highly error-prone, lacks real-time updates, and makes restocking decisions difficult. Transitioning to a smart warehouse management system (WMS) is crucial but faces major requirements engineering challenges:
+1. **Stakeholder requirements mismatch:** Warehouse managers and ground-level inventory staff have different priorities. Managers require high-level dashboards, stock forecasting, and automated restocking recommendations, whereas operational staff focus on rapid stock-in/stock-out recording and instant low-stock alerts.
+2. **Abstract specification barriers:** Traditional text-based requirements documents (like SRS) are often too abstract for operational staff, leading to misinterpretations and system usability issues post-deployment.
+3. **Validation gap:** There is a lack of systematic empirical validation showing whether the specified smart WMS is truly more useful and easier to use than existing, deeply-ingrained spreadsheet-based workflows.
 
 ## 5. Motivation
 
-Warehouse management is an important part of business operations, especially for retail stores, supermarkets, and small or medium-sized enterprises. Poor inventory planning can directly affect revenue, customer satisfaction, and operating costs.
+Warehouse operations directly impact a business's supply chain efficiency and holding costs. System failures or low adoption rates in custom-developed WMS are rarely caused by technical bugs; instead, they stem from poor requirements engineering.
+By focusing on a systematic Requirements Engineering (RE) process:
+- **Elicitation:** Eliciting needs from both managers and operational staff ensures the system covers all necessary transaction flows and decision-support logic.
+- **Specification:** Specifying clear functional requirements for inventory tracking, low-stock alerts, and restocking recommendations establishes a solid blueprint.
+- **Validation:** Designing and testing an interactive prototype against the traditional spreadsheet baseline validates usability and usefulness before full-scale development, saving time and resources.
 
-By integrating Machine Learning into a warehouse management system, the system can analyze historical data, forecast future demand, and suggest suitable restocking quantities. This helps managers make faster and more data-driven decisions instead of relying only on manual experience.
+## 6. Target Context
 
-## 6. Target Users
+Small and Medium-sized Enterprises (SMEs), retail distributors, and logistics hubs currently utilizing spreadsheet-based workflows (Excel) that are looking to transition to automated, smart warehouse management systems.
 
-The main target users of the system include:
+## 7. Preliminary Research Questions
 
-- Warehouse managers.
-- Inventory staff.
-- Business owners.
-- Sales and operation managers.
-- Small and medium-sized enterprises that need inventory planning support.
+*   **Main RQ:** How can requirements be specified and validated for a smart warehouse system that supports inventory tracking and restocking decisions?
+*   **RQ1:** What requirements should be collected from warehouse managers and inventory staff to understand inventory tracking, stock alerts, and restocking needs?
+*   **RQ2:** What functional requirements are needed for product management, stock-in/stock-out tracking, low-stock alerts, and restocking recommendations?
+*   **RQ3:** How can a prototype be used to validate whether the system is more useful and easier to use than spreadsheet-based inventory management?
 
-## 7. Proposed AI Model / Method
+## 8. Related Papers (preliminary)
 
-The proposed AI methods include:
-
-- **Random Forest Regressor** for product demand forecasting.
-- **XGBoost Regressor** as an alternative Machine Learning model.
-- **Moving Average** as a traditional baseline method for comparison.
-
-The input data may include:
-
-- Product ID.
-- Product category.
-- Historical sales quantity.
-- Current stock quantity.
-- Date, month, or season.
-- Previous demand values.
-
-The output of the AI model includes:
-
-- Predicted demand for each product.
-- Recommended restocking quantity.
-- Stockout risk warning.
-
-## 8. System Features
-
-The main features of the system include:
-
-1. Product and inventory management.
-2. Stock-in and stock-out transaction management.
-3. Demand forecasting using Machine Learning.
-4. Inventory recommendation and restocking suggestion.
-5. Low-stock and stockout risk warning.
-6. Dashboard for inventory status, predicted demand, and recommendation results.
-
-## 9. Expected Contribution
-
-The expected contributions of this study are:
-
-1. Propose a smart warehouse management system architecture integrated with Machine Learning.
-2. Develop a demand forecasting module based on historical sales and inventory data.
-3. Build an inventory recommendation mechanism to support restocking decisions.
-4. Compare Machine Learning models with a traditional baseline method.
-5. Evaluate the effectiveness of the proposed system using forecasting metrics.
-
-## 10. Evaluation Plan
-
-The system will be evaluated based on forecasting performance and usefulness of inventory recommendations.
-
-- **Dataset:** Historical sales and inventory data. The group may use a public retail dataset, such as Online Retail Dataset or Superstore Dataset, or create a simulated warehouse dataset if real data is not available.
-- **Baseline:** Moving Average method or simple rule-based restocking method.
-- **Metrics:** MAE, RMSE, MAPE for demand forecasting; stockout reduction and overstock reduction for inventory recommendation.
-- **Expert evaluation:** Warehouse staff, business owners, or instructors may review whether the recommendations are reasonable.
-- **User survey:** Users may evaluate the system based on usefulness, ease of use, and decision support effectiveness.
-
-## 11. Related Papers
-
-To be updated.
+| No | Title | Year | Source | Link / DOI |
+|---|---|---|---|---|
+| 1 | Assessing Logistical Requirements for Inventory Management Systems: An Evaluation of Elicitation Methods | 2024 | Gothenburg University | https://gupea.ub.gu.se/server/api/core/bitstreams/04c0cce7-ccd7-46a3-8cf8-744569cbdf8a/content |
+| 2 | Requirements engineering for inventory management of locomotive's electronic modules maintenance | 2020 | IEEE IEEM / Univ. of Johannesburg | https://ujcontent.uj.ac.za/esploro/outputs/journalArticle/Requirements-engineering-for-inventory-management-of/9912310607691#file-0 |
+| 3 | A Framework for Modelling Software Requirements | 2011 | IJCSI | https://www.researchgate.net/profile/Ugrasen-Suman/publication/266000842_A_Framework_for_Modelling_Software_Requirements/links/55094f260cf2d7a2812c6e71/A-Framework-for-Modelling-Software-Requirements.pdf |
+| 4 | Enhancing Inventory Management through Real-Time Power BI Dashboards and KPI Tracking | 2025 | IJSRCSEIT | https://www.researchgate.net/profile/Srikanth-Yerra-2/publication/389822887_Enhancing_Inventory_Management_through_Real-Time_Power_BI_Dashboards_and_KPI_Tracking/links/67d3b9107d56ad0a0f0210d5/Enhancing-Inventory-Management-through-Real-Time-Power-BI-Dashboards-and-KPI-Tracking.pdf |

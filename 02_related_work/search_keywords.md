@@ -1,35 +1,25 @@
 # Search Keywords for Literature Review
 
-Tài liệu này lưu trữ danh sách từ khóa tìm kiếm (Search Queries) được phân loại theo mục tiêu nghiên cứu của đề tài "Hệ thống quản lý kho thông minh tích hợp AI (Dự báo nhu cầu và Gợi ý nhập hàng)".
+Tài liệu này lưu trữ danh sách từ khóa tìm kiếm (Search Queries) được phân loại theo 2 nhóm chính tương ứng với cấu trúc của `paper_list.md` cho đề tài: **"Requirements Engineering for a Smart Warehouse Management System"**.
 
 ---
 
 ## 1. Nhóm 1: Bài báo liên quan trực tiếp (Core Papers)
-*   **Mục tiêu:** Tìm tối thiểu **5 bài báo** đề xuất hệ thống tổng thể hoặc mô hình tích hợp vừa dự báo nhu cầu (demand forecasting), vừa đưa ra quyết định nhập hàng (inventory replenishment / restocking) sử dụng Machine Learning.
-*   **Nguồn tìm kiếm ưu tiên:** Google Scholar, IEEE Xplore, ScienceDirect, ACM Digital Library.
+*   **Mục tiêu:** Tìm kiếm các bài báo tập trung vào quy trình Kỹ thuật yêu cầu (Requirements Engineering) cho hệ thống quản lý kho (WMS), đặc tả các tính năng cốt lõi (inventory tracking, stock alerts, restocking recommendations) và phương pháp xác thực yêu cầu bằng bản mẫu (prototype validation).
 *   **Từ khóa tìm kiếm:**
-    *   `"smart warehouse management" AND "machine learning"`
-    *   `"demand forecasting" AND "inventory replenishment" AND "machine learning"`
-    *   `"AI-powered inventory management system"`
-    *   `"inventory recommendation system" AND "sales forecasting"`
-    *   `"inventory control" AND "demand prediction" AND ("XGBoost" OR "Random Forest")`
+    *   `"requirements engineering" AND "smart warehouse management system"`
+    *   `"requirements elicitation" AND "inventory management"`
+    *   `"requirements engineering" AND "inventory tracking" AND "restocking"`
+    *   `"software requirements specification" AND "warehouse management system"`
+    *   `"prototype" AND "requirements validation" AND "inventory system"`
 
 ---
 
-## 2. Nhóm 2: Bài báo về Mô hình/Phương pháp AI (AI Model/Methodology)
-*   **Mục tiêu:** Tìm tối thiểu **3 bài báo** tập trung sâu vào kỹ thuật học máy (thuật toán Random Forest, XGBoost, các mô hình Time-series) ứng dụng trong dự báo nhu cầu sản phẩm. Các tài liệu này phục vụ chính cho việc viết chương *Methodology*.
+## 2. Nhóm 2: Bài báo bối cảnh thực tế (Domain / Context Papers)
+*   **Mục tiêu:** Tìm kiếm các nghiên cứu về bối cảnh thực tế của quản lý kho truyền thống bằng bảng tính (Excel/spreadsheets), các rào cản khi chuyển đổi từ bảng tính sang hệ thống phần mềm chuyên dụng và đánh giá so sánh hiệu năng/trải nghiệm người dùng giữa hai phương pháp này.
 *   **Từ khóa tìm kiếm:**
-    *   `"demand forecasting" AND "XGBoost" AND "Random Forest"`
-    *   `"retail sales forecasting" AND "machine learning regression"`
-    *   `"sales prediction" AND "time series forecasting" AND "machine learning"`
-    *   `"predictive analytics" for "inventory management" using machine learning`
-
----
-
-## 3. Nhóm 3: Bài báo về Lĩnh vực ứng dụng (Domain Papers)
-*   **Mục tiêu:** Tìm tối thiểu **2 bài báo** tập trung vào nghiệp vụ quản lý kho truyền thống để làm cơ sở xây dựng Baseline và các công thức nghiệp vụ (Reorder Point - ROP, Safety Stock, EOQ).
-*   **Từ khóa tìm kiếm:**
-    *   `"inventory control policy" AND "safety stock calculation"`
-    *   `"reorder point" AND "traditional inventory management"`
-    *   `"Economic Order Quantity (EOQ)" in retail warehouse`
-    *   `"inventory management challenges in small and medium enterprises (SMEs)"`
+    *   `"spreadsheet-based inventory" AND "usability"`
+    *   `"excel" AND "inventory tracking" AND "challenges"`
+    *   `"transition" AND "spreadsheet" AND "warehouse management system"`
+    *   `"usability evaluation" AND "inventory management" AND "spreadsheet"`
+    *   `"spreadsheet" AND "inventory control" AND "SMEs"`
